@@ -1,10 +1,11 @@
-# All code used for the thesis for program Master of Statistics and Data science in June 2025
+## All code used for the thesis for program Master of Statistics and Data science in June 2025
 
-# Effect of Higher-Order Variables on Prediction Model Heterogeneity --- A Case Study: Ovarian Cancer
+## Effect of Higher-Order Variables on Prediction Model Heterogeneity --- A Case Study: Ovarian Cancer
 
 This project investigates how higher-order variables—such as center type and disease prevalence—affect the heterogeneity of clinical prediction models. The study uses ovarian cancer as a case example and evaluates how model performance varies across healthcare centers.
 
-Authou: Ebba Blomdahl and Linwei 
+### Authours: Ebba Blomdahl and Linwei 
+
 ---
 
 ## 1. Data Generation
@@ -12,7 +13,7 @@ Authou: Ebba Blomdahl and Linwei
 This module defines the process for generating training and test datasets across multiple scenarios:
 
 - Inclusion/exclusion of higher-order variables:
-  - `Center Type` (e.g., oncology vs non-oncology centers)
+  - `Center Type` (e.g., oncology vs non-oncology center as 1 and 0)
   - `Prevalence` (disease rate per center)
 - Corresponding adjustments to regression-based imputation for missing values.
 
