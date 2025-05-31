@@ -60,7 +60,7 @@ Four predictive models are implemented under 24 unique scenarios:
 - Random Forest  
 - XGBoost  
 
-All models depend on files in the **Data** module for dynamic training/test dataset generation.
+All models depend on files in the **Data_generation** module for dynamic training/test dataset generation.
 
 ---
 
