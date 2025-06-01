@@ -18,7 +18,7 @@ prevalence_small = TRUE
 
 run_model <- function(nbr_onco = nbr_onco, nbr_non_onco = nbr_non_onco, center_size = center_size, center_type_predictor = center_type_predictor, prevalence_large = prevalence_large, prevalence_small = prevalence_small){ 
   # nbr of iterations
-  n_iter = 50
+  n_iter = 100
   
   # Initialize empty matrices to save prediction results
   predictions_mat <- matrix(NA, nrow = nrow(test_data), ncol = n_iter) 
