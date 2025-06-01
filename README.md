@@ -1,4 +1,4 @@
-## All code used for the thesis for program Master of Statistics and Data science in KU Leuven in June 2025
+## All code used for the Master's thesis for the Master program of Statistics and Data science at KU Leuven in June 2025
 
 ## Effect of Higher-Order Variables on Prediction Model Heterogeneity --- A Case Study: Ovarian Cancer
 
